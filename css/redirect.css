@@ -1,8 +1,35 @@
 .normaltxt{
-  color:red;
-  font-family: "Neue Haas Grotesk" !important;
+  color:#616161;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .txtbox{
-  margin-top: 350px;
+  position:absolute;
+  top: 41%;
+  left: 0;
+  right: 0;
+}
+
+.site {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+}
+
+.site a {
+  color:#212121;
+  text-decoration: none;
+  border-bottom: 3px solid rgba(255, 236, 1, 0.58);
+}
+
+.site a:hover {
+	position:relative;
+}
+
+.site a:hover:after {
+content:"";
+position: absolute;
+bottom: 0px;
+left: 0;
+width: 100%;
+border-bottom: 9px solid rgba(255, 236, 1, 0.58);
 }
